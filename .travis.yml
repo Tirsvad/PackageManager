@@ -38,3 +38,6 @@ jobs:
   allow_failures:
     - name: "python 3.6 [Job failure permitted]"
 
+after_success:
+  - coveralls    
+
