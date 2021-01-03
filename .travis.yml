@@ -1,5 +1,8 @@
 language: python
 
+notifications:
+  webhooks: https://coveralls.io/webhook
+
 jobs:
   include:
     - python: 3.6
